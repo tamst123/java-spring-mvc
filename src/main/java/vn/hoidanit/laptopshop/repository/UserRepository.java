@@ -12,4 +12,5 @@ public interface UserRepository extends JpaRepository<User, Long> {
     User save(User hooidanit);
 
     List<User> findByEmail(String email);
+
 }
